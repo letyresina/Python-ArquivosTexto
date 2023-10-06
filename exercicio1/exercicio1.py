@@ -9,6 +9,6 @@ arquivo = open("exercicio1/arquivoTexto.txt", "w")
 
 for i in range(10):
     num = int(input("Informe um número inteiro qualquer: "))
-    arquivo.write(str(num) + '\n')
-
+    arquivo.write(f"{num} \n")
+    
 arquivo.close()
